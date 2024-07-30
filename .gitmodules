@@ -1,0 +1,18 @@
+[submodule "permissions-service"]
+	path = permissions-service
+	url = https://github.com/MaciejOstrowskiIT/permissions-service.git
+[submodule "transactions-service"]
+	path = transactions-service
+	url = https://github.com/MaciejOstrowskiIT/transactions-service.git
+[submodule "auth-service"]
+	path = auth-service
+	url = https://github.com/MaciejOstrowskiIT/auth-service.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/MaciejOstrowskiIT/frontend.git
+[submodule "gateway"]
+	path = gateway
+	url = https://github.com/MaciejOstrowskiIT/gateway.git
+[submodule "users-service"]
+	path = users-service
+	url = https://github.com/MaciejOstrowskiIT/users-service.git
