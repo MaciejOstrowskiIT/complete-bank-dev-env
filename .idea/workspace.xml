@@ -4,7 +4,111 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a5dc1e7-ac97-42b7-9ec6-931cd828a5ed" name="Changes" comment="" />
+    <list default="true" id="9a5dc1e7-ac97-42b7-9ec6-931cd828a5ed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/.devcontainer/devcontainer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/bin/dev-entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/bin/dev-entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/controllers/AuthController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/controllers/TransactionsController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/controllers/UserController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/controllers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/controllers/models/accountModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/controllers/models/transactionModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/controllers/models/userModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/generateRandomTransaction.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/interfaces/IControllerInterface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/interfaces/IRequestHandlerInterface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/middleware/jwt.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/middleware/validateReqBody.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/routes/ProtectedRoute.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/routes/Route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/routes/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/routes/types/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/service/RequestHandler.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/utils/ResponseHandler.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/utils/logs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/utils/registerRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permissions-service/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permissions-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permissions-service/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permissions-service/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permissions-service/bin/dev-entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permissions-service/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permissions-service/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permissions-service/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permissions-service/src/controllers/Controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permissions-service/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permissions-service/src/interfaces/IGetter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permissions-service/src/models/Permission.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permissions-service/src/services/MongoService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permissions-service/src/utils/logs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permissions-service/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/bin/dev-entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/controllers/Controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/domain/IDomain.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/domain/Transaction.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/interfaces/IGetter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/interfaces/ISetter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/mappers/MongoMapper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/mappers/MongoTransactionSerializer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/mappers/Serializer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/middleware/jwt.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/middleware/validateReqBody.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/models/DataMapper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/models/Transactions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/routes/ProtectedRoute.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/routes/Route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/routes/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/routes/types/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/services/TransactionService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/utils/logs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/src/utils/registerRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transactions-service/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/bin/dev-entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/src/controllers/Controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/src/interfaces/IControllerInterface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/src/interfaces/IGetter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/src/models/Users.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/src/services/MongoService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/src/utils/logs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users-service/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway" beforeDir="false" afterPath="$PROJECT_DIR$/gateway" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/permissions-service" beforeDir="false" afterPath="$PROJECT_DIR$/permissions-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transactions-service" beforeDir="false" afterPath="$PROJECT_DIR$/transactions-service" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +117,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2jy8v3YrGYNj2i0IommjZMAHnxZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,7 +132,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "F:/banking-env",
+    "last_opened_file_path": "F:/banking-env/users-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -33,6 +140,15 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -49,6 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722348183707</updated>
       <workItem from="1722348184764" duration="961000" />
+      <workItem from="1722349162073" duration="282000" />
     </task>
     <servers />
   </component>
