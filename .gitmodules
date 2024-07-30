@@ -1,3 +1,11 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/MaciejOstrowskiIT/frontend.git
+	branch = master
+[submodule "gateway"]
+	path = gateway
+	url = https://github.com/MaciejOstrowskiIT/gateway.git
+	branch = master
 [submodule "permissions-service"]
 	path = permissions-service
 	url = https://github.com/MaciejOstrowskiIT/permissions-service.git
@@ -9,14 +17,6 @@
 [submodule "auth-service"]
 	path = auth-service
 	url = https://github.com/MaciejOstrowskiIT/auth-service.git
-	branch = master
-[submodule "frontend"]
-	path = frontend
-	url = https://github.com/MaciejOstrowskiIT/frontend.git
-	branch = master
-[submodule "gateway"]
-	path = gateway
-	url = https://github.com/MaciejOstrowskiIT/gateway.git
 	branch = master
 [submodule "users-service"]
 	path = users-service

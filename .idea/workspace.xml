@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a5dc1e7-ac97-42b7-9ec6-931cd828a5ed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/banking-env.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/banking-env.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722348183707</updated>
       <workItem from="1722348184764" duration="961000" />
-      <workItem from="1722349162073" duration="661000" />
+      <workItem from="1722349162073" duration="1101000" />
     </task>
     <servers />
   </component>
