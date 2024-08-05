@@ -1,0 +1,119 @@
+version: "3.8"
+services:
+  gateway:
+    container_name: gateway
+    build:
+      context: ./gateway/
+      target: base
+      dockerfile: ./docker/Dockerfile
+    environment:
+      - MONGO_URL=mongodb://mongo:27017/
+      - PORT=4000
+      - TOKEN=TOKEN
+      - DEV=1
+      - USERS_API=http://192.168.1.71:4001
+      - TRANSACTIONS_API=http://192.168.1.71:4002
+      - AUTH_API=http://192.168.1.71:4003
+    command: npm run server
+    volumes:
+      - ./gateway:/workspace/gateway/
+    ports:
+      - "4000:4000"
+    entrypoint: ./bin/dev-entrypoint.sh
+
+  auth-service:
+    container_name: auth-service
+    build:
+      context: ./auth-service/
+      target: base
+      dockerfile: ./docker/Dockerfile
+    environment:
+      - MONGO_URL=mongodb://mongo:27017/
+      - PORT=4003
+      - TOKEN=TOKEN
+      - DEV=1
+      - COLLECTION_NAME=auth
+      - DATABASE_NAME=bankTS
+    command: npm run server
+    volumes:
+      - ./auth-service:/workspace/auth-service/
+    ports:
+      - "4003:4003"
+    entrypoint: ./bin/dev-entrypoint.sh
+
+  users-service:
+    container_name: users-service
+    build:
+      context: ./users-service/
+      target: base
+      dockerfile: ./docker/Dockerfile
+    environment:
+      - MONGO_URL=mongodb://mongo:27017/
+      - PORT=4001
+      - TOKEN=TOKEN
+      - DEV=1
+      - COLLECTION_NAME="auth"
+    command: npm run server
+    volumes:
+      - ./users-service:/workspace/users-service/
+    ports:
+      - "4001:4001"
+    entrypoint: ./bin/dev-entrypoint.sh
+
+  transactions-service:
+    container_name: transactions-service
+    build:
+      context: ./transactions-service/
+      target: base
+      dockerfile: ./docker/Dockerfile
+    environment:
+      - MONGO_URL=mongodb://mongo:27017/
+      - PORT=4002
+      - TOKEN=TOKEN
+      - DEV=1
+      - COLLECTION_NAME='transactions'
+    command: npm run server
+    volumes:
+      - ./transactions-service:/workspace/transactions-service/
+    ports:
+      - "4002:4002"
+    entrypoint: ./bin/dev-entrypoint.sh
+
+  # permissions-service:
+  #   build:
+  #     context: ./permissions-service/
+  #     target: base
+  #     dockerfile: ./docker/Dockerfile
+  #   environment:
+  #     - MONGO_URL=mongodb://mongo:27017/
+  #     - PORT=4003
+  #     - TOKEN=TOKEN
+  #     - DEV=1
+  #   command: npm run server
+  #   volumes:
+  #     - ./permissions-service:/workspace/permissions-service/
+  #   ports:
+  #     - "4003:4003"
+  #   entrypoint: ./bin/dev-entrypoint.sh
+
+  frontend:
+    container_name: frontend
+    build:
+      context: ./frontend/
+      target: base
+      dockerfile: ./docker/Dockerfile
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    command: npm run start
+    volumes:
+      - ./frontend:/workspace/frontend/:rw
+    ports:
+      - "3000:3000"
+    entrypoint: ./bin/dev-entrypoint.sh
+
+  mongo:
+    image: mongo
+    container_name: database-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
