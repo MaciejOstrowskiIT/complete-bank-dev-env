@@ -1,19 +1,14 @@
 #!/bin/bash
 
-# Katalog na pliki dziennika
 LOG_DIR="./logs"
-
-# Utwórz katalog, jeśli nie istnieje
 mkdir -p "$LOG_DIR"
 
-# Ścieżki do skryptów w folderze ./scripts/
 SCRIPT_DIR="./scripts"
 PERMISSION_SCRIPT="$SCRIPT_DIR/add_permissions.sh"
 NPM_INSTALL_SCRIPT="$SCRIPT_DIR/install_npm.sh"
 DOCKER_SCRIPT="$SCRIPT_DIR/start_docker.sh"
 UPDATE_SUBMODULES_SCRIPT="$SCRIPT_DIR/update_submodules.sh"
 
-# Funkcja do uruchamiania skryptów i rejestrowania wyników
 run_script() {
     local script=$1
     local log_file=$2
@@ -22,7 +17,6 @@ run_script() {
     bash "$script" 2>&1 | tee -a "$log_file" &
     local pid=$!
 
-    # Pasek postępu
     local delay=0.1
     local spinstr='|/-\'
     local temp
@@ -47,16 +41,9 @@ run_script() {
     printf "\rProcessing $script [Done]\n"
 }
 
-# Uruchom aktualizację submodułów
 run_script "$UPDATE_SUBMODULES_SCRIPT" "$LOG_DIR/update_submodules_log.txt"
-
-# Uruchom pierwszy skrypt (dodawanie uprawnień)
 run_script "$PERMISSION_SCRIPT" "$LOG_DIR/add_permissions_log.txt"
-
-# Uruchom drugi skrypt (instalacja npm)
 run_script "$NPM_INSTALL_SCRIPT" "$LOG_DIR/install_npm_log.txt"
-
-# Uruchom skrypt Docker (uruchamianie kontenerów)
 run_script "$DOCKER_SCRIPT" "$LOG_DIR/start_docker_log.txt"
 
 echo "Project setup completed."

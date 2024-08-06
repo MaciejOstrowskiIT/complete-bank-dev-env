@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Uruchomienie Docker Compose
 echo "Running 'sudo docker-compose up'..."
 sudo docker-compose up -d
 
