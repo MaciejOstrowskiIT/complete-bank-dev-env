@@ -16,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -32,13 +32,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "F:/banking-env/auth-service",
+    "git-widget-placeholder": "b4b62664",
+    "last_opened_file_path": "W:/complete-bank-dev-env/auth-service/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "ts.external.directory.path": "W:\\complete-bank-dev-env\\transactions-service\\node_modules\\typescript\\lib"
   }
 }]]></component>
   <component name="ReactDesignerToolWindowState">
@@ -52,17 +54,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\complete-bank-dev-env\auth-service\src" />
       <recent name="F:\banking-env\auth-service" />
       <recent name="F:\banking-env\users-service" />
       <recent name="F:\banking-env\transactions-service" />
       <recent name="F:\banking-env\permissions-service" />
-      <recent name="F:\banking-env\gateway" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
       </set>
     </attachedChunks>
   </component>
@@ -76,6 +78,8 @@
       <updated>1722348183707</updated>
       <workItem from="1722348184764" duration="961000" />
       <workItem from="1722349162073" duration="1101000" />
+      <workItem from="1722960036854" duration="5410000" />
+      <workItem from="1723119498993" duration="12459000" />
     </task>
     <servers />
   </component>

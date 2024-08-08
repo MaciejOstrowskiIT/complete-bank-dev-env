@@ -71,7 +71,7 @@ services:
       - PORT=4002
       - TOKEN=TOKEN
       - DEV=1
-      - COLLECTION_NAME='transactions'
+      - COLLECTION_NAME=transactions
     command: npm run server
     volumes:
       - ./transactions-service:/workspace/transactions-service/
