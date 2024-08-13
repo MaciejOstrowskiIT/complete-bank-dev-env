@@ -6,3 +6,5 @@ gen/
 
 # Logs
 /logs/
+
+.gittoken
