@@ -16,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/auth-service" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -32,8 +32,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "b4b62664",
-    "last_opened_file_path": "W:/complete-bank-dev-env/auth-service/src",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "W:/complete-bank-dev-env/auth-service/src/utils",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,11 +54,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\complete-bank-dev-env\auth-service\src\utils" />
       <recent name="W:\complete-bank-dev-env\auth-service\src" />
       <recent name="F:\banking-env\auth-service" />
       <recent name="F:\banking-env\users-service" />
       <recent name="F:\banking-env\transactions-service" />
-      <recent name="F:\banking-env\permissions-service" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -79,11 +79,34 @@
       <workItem from="1722348184764" duration="961000" />
       <workItem from="1722349162073" duration="1101000" />
       <workItem from="1722960036854" duration="5410000" />
-      <workItem from="1723119498993" duration="12459000" />
+      <workItem from="1723119498993" duration="20555000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
