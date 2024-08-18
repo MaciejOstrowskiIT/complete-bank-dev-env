@@ -16,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/auth-service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/permissions-service" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -32,14 +32,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "W:/complete-bank-dev-env/auth-service/src/utils",
+    "git-widget-placeholder": "87ffe9f3",
+    "last_opened_file_path": "W:/complete-bank-dev-env/users-service/src/models",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript",
     "ts.external.directory.path": "W:\\complete-bank-dev-env\\transactions-service\\node_modules\\typescript\\lib"
   }
 }]]></component>
@@ -54,11 +54,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\complete-bank-dev-env\users-service\src\models" />
+      <recent name="W:\complete-bank-dev-env\users-service\src" />
       <recent name="W:\complete-bank-dev-env\auth-service\src\utils" />
       <recent name="W:\complete-bank-dev-env\auth-service\src" />
       <recent name="F:\banking-env\auth-service" />
-      <recent name="F:\banking-env\users-service" />
-      <recent name="F:\banking-env\transactions-service" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -79,7 +79,10 @@
       <workItem from="1722348184764" duration="961000" />
       <workItem from="1722349162073" duration="1101000" />
       <workItem from="1722960036854" duration="5410000" />
-      <workItem from="1723119498993" duration="20555000" />
+      <workItem from="1723119498993" duration="26291000" />
+      <workItem from="1724001099670" duration="49000" />
+      <workItem from="1724001164107" duration="1346000" />
+      <workItem from="1724002535162" duration="459000" />
     </task>
     <servers />
   </component>
