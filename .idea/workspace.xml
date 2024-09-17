@@ -5,10 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a5dc1e7-ac97-42b7-9ec6-931cd828a5ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/banking-env.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/banking-env.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/bin/dev-entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/bin/dev-entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/utils/ResponseHandler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/utils/ResponseHandler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/utils/registerRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/utils/registerRoutes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/auth/Auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/auth/Auth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/content/TransactionCreator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/content/TransactionCreator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/MainRoute.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/MainRoute.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway" beforeDir="false" afterPath="$PROJECT_DIR$/gateway" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/bin/dev-entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/bin/dev-entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/dev-entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/dev-entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/amqp/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/amqp/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/permissions-service" beforeDir="false" afterPath="$PROJECT_DIR$/permissions-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/permissions-service/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/permissions-service/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/permissions-service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/permissions-service/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/permissions-service/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/permissions-service/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/project_setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/start_docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/start_docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transactions-service" beforeDir="false" afterPath="$PROJECT_DIR$/transactions-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transactions-service/bin/dev-entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/transactions-service/bin/dev-entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transactions-service/src/amqp/consumers/transactionsConsumer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/transactions-service/src/amqp/consumers/transactionsConsumer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transactions-service/src/amqp/database/updateDatabase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/transactions-service/src/amqp/database/updateDatabase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transactions-service/src/amqp/events/sendEvent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/transactions-service/src/amqp/events/sendEvent.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transactions-service/src/amqp/validators/validateMessage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/transactions-service/src/amqp/validators/validateMessage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service" beforeDir="false" afterPath="$PROJECT_DIR$/users-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/bin/dev-entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/bin/dev-entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/domain/IDomain.ts" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/domain/IDomain.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/domain/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/domain/User.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/mappers/MongoMapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/mappers/MongoMapper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/mappers/MongoUserSerializer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/mappers/MongoUserSerializer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/mappers/Serializer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/mappers/Serializer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/middleware/jwt.ts" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/middleware/jwt.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/middleware/validateReqBody.ts" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/middleware/validateReqBody.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/models/DataMapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/models/DataMapper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/routes/ProtectedRoute.ts" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/routes/ProtectedRoute.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/routes/Route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/routes/Route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/routes/types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/routes/types/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +52,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/permissions-service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -29,20 +68,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "87ffe9f3",
-    "last_opened_file_path": "W:/complete-bank-dev-env/users-service/src/models",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript",
-    "ts.external.directory.path": "W:\\complete-bank-dev-env\\transactions-service\\node_modules\\typescript\\lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;Z:/complete-bank-dev-env&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;Z:\\complete-bank-dev-env\\auth-service\\node_modules\\typescript\\lib&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -64,7 +103,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
       </set>
     </attachedChunks>
   </component>
@@ -83,6 +122,11 @@
       <workItem from="1724001099670" duration="49000" />
       <workItem from="1724001164107" duration="1346000" />
       <workItem from="1724002535162" duration="459000" />
+      <workItem from="1725996434409" duration="982000" />
+      <workItem from="1725997446529" duration="299000" />
+      <workItem from="1725997760472" duration="635000" />
+      <workItem from="1725998406690" duration="338000" />
+      <workItem from="1726171498370" duration="4057000" />
     </task>
     <servers />
   </component>
